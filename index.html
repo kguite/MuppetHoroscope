@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="This is where your description goes">
+		<meta name="keywords" content="one, two, three">
+
+		<title>Muppet Horoscope</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+<body>
+	<div class='title'>
+		<h1>WHICH MUPPET ARE YOU?</h1>
+		<h2>To find your Muppet sign, enter your birthdate:</h2>
+  
+	<input id="month" type="number" min="1" max="12" placeholder="Month">
+	<input id="day" type="number" min="1" max="31" placeholder="Day">
+	<button id="button" onclick="chooseAMuppet()" type="button" name="button">The excitement is too much!</button> 
+	  <p id='readMore'>Read more at: https://www.personalityclub.com/blog/muppets-personality-chart </p>
+</div>
+
+<div class='whacka'>  
+  <p id="signChar">WHACKA WHACKA!</p>
+	<p id="pic"></p>
+	<p id="description"></p>
+</div> 
+  
+	<script src="main.js"></script>
+</body>
